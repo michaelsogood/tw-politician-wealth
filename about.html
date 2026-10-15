@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>資料說明｜政治人物財產申報</title>
+<meta name="description" content="立法委員、縣市議員、縣市長的公職人員財產申報資料，整理自監察院廉政專刊。">
+<link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+<header class="top"><div class="wrap">
+<a class="brand" href="index.html">政治人物財產申報</a>
+<nav><a href="index.html">人物</a><a href="about.html">資料說明</a></nav>
+<button class="theme-toggle" type="button" aria-label="切換深色或淺色模式">◐</button>
+</div></header>
+<main><div class="wrap">
+<p class="notice disclaimer">本站資料僅供參考，可能有錯（解析、辨識或股價換算都可能出錯），請以監察院公告的申報表原件為準。</p>
+
+<h1>資料說明</h1>
+<div class="card">
+<h2 style="margin-top:0">資料來源</h2>
+<p>申報表 PDF 來自監察院「公職人員財產申報資料查詢」系統（廉政專刊），現任名單來自立法院與內政部。資料更新於 2026-10-15，共 7,983 份申報表、32,948 頁。</p>
+<h2>如何解析</h2>
+<p>每份 PDF 的表格逐格讀出，依欄位標題辨認是土地、存款、股票或債務等項目；申報表上寫明的總額（例如「存款總金額」）會與逐筆加總比對，相符的打勾。506 份早年掃描檔沒有文字，以 OCR 辨識，可能有誤。</p>
+<h2>數字怎麼看</h2>
+<ul>
+<li>金額為申報當時申報人填寫的數字，不是現值。股票依法以「票面價額」申報，通常遠低於市價。</li>
+<li>「股票與基金市值」＝股票的股數 × 最近一個交易日的收盤價，加上基金：上市的 ETF 以單位數 × 收盤價，其他基金照申報金額（基金依淨值申報）（市值依 2026-10-15 收盤價（FinMind），未上市、已下市與海外股票不計入。）。股數是申報日當天的持股，之後若有買賣不會反映；申報日之後的分割、反分割、面額變更與減資已依比例換算（現金減資會略為高估）；股票名稱以上市、上櫃、興櫃公司的簡稱與全名比對，對不上的不計入，在申報頁會註明原因。</li>
+<li>不動產只有登記資料與取得價額（超過五年者免填），本站只列筆數與依持分換算的面積，不估價。</li>
+<li>本站不計算「淨資產」。申報表沒有不動產市價，股票也只有票面價，任何加總都會嚴重低估，所以各項分開列出。</li>
+<li>摘要只用完整的一般申報表；變動申報、信託申報只列出異動或信託的項目。</li>
+</ul>
+<h2>公開期限</h2>
+<p>依公職人員財產申報法，離職滿一年後申報資料即不再公開。本站只收錄監察院目前仍公開的申報，已非現任者以標籤註明。</p>
+<p>解析統計：7,983 份成功解析；申報表所載總額與明細加總比對 14,334 項，相符 14,063 項。</p>
+</div>
+
+</div></main>
+<footer><div class="wrap">資料來源：監察院公報廉政專刊、內政部、立法院。本站為依公開資料整理之非官方網站，數字以申報表原件為準。</div></footer>
+<script src="static/app.js"></script>
+</body>
+</html>
